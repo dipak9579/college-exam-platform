@@ -6,7 +6,7 @@ const studentSchema = new mongoose.Schema({
     ref: 'User',
     required: true,
   },
-  class: {
+  studentClass: {
     type: String, // e.g., "Computer Science 2024"
     required: true,
   },

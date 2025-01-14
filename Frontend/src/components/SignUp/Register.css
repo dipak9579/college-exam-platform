@@ -1,0 +1,89 @@
+/* Style for the registration form container */
+.register-form {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f9f9f9; /* Light gray background */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Heading style */
+  .register-form h2 {
+    text-align: center;
+    color: #333; /* Dark text color */
+    margin-bottom: 20px;
+  }
+  
+  /* Style for form labels */
+  .register-form label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #555; /* Slightly muted text color */
+  }
+  
+  /* Input and select fields styling */
+  .register-form input[type="text"],
+  .register-form input[type="email"],
+  .register-form input[type="password"],
+  .register-form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd; /* Light border */
+    border-radius: 4px;
+    font-size: 14px;
+    box-sizing: border-box;
+  }
+  
+  /* Add focus style for input fields */
+  .register-form input:focus,
+  .register-form select:focus {
+    outline: none;
+    border-color: #007bff; /* Blue border on focus */
+    box-shadow: 0 0 4px rgba(0, 123, 255, 0.5); /* Subtle glow effect */
+  }
+  
+  /* Style for form buttons (if needed) */
+  .register-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff; /* Blue background */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .register-form button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  
+  /* Add responsive design */
+  @media (max-width: 600px) {
+    .register-form {
+      padding: 15px;
+    }
+  
+    .register-form label {
+      font-size: 14px;
+    }
+  
+    .register-form input,
+    .register-form select,
+    .register-form button {
+      font-size: 14px;
+    }
+  }
+
+  .message {
+    margin-top: 15px;
+    font-size: 14px;
+    color: green;
+}
+.message.error {
+    color: red;
+}
